@@ -1,6 +1,7 @@
 ssh-keygen -p -m PEM -f ~/.ssh/id_rsa
 apt install python3-pip
 apt install -y software-properties-common
+apt install -y ansible
 
 [defaults]
 inventory = /etc/ansible/hosts
